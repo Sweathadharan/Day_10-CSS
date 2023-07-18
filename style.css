@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width:100vh;
+    height:100vh;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10em 10em;
+    background: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 20%;
+}
+.glass{
+    margin:auto;
+    width:400px;
+    height:400px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 5px;
+    backdrop-filter: blur(30px);
+    border:2px solid transparent;
+    background-clip:padding-box;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.0.3) ;
+    
+}
+.glass p{
+    font-size: 20px;
+    font-weight: bold;
+    color:beige;  
+}
+
+.glass h2{
+    font-weight: bolder;
+    text-align: center;
+    color:bisque;
+}
